@@ -1,0 +1,229 @@
+body{
+    font-family: arial;
+    background-color: #E6E6E6;
+    width: 1340px;
+}
+
+
+header{
+    margin: auto;
+    background: #162E58;
+    padding-bottom: 130px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -18px;
+    color: #FFF;
+    font-size: 16px
+}
+
+
+#liga_pala{
+    position: absolute;
+    font-size:16px;
+    font-family: arial;
+    padding-left: 30px;
+    padding-top: 25px
+}
+
+
+.linha{
+    position: absolute;
+    margin-left: 80px;
+    padding-top: 58px
+}
+
+
+#part{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 285px;
+    font-size: 12px
+}
+
+
+#not{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 410px;
+    font-size: 12px
+}
+
+
+#cla{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 535px;
+    font-size: 12px
+}
+
+
+#est{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 695px;
+    font-size: 12px
+}
+
+
+#jog{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 845px;
+    font-size: 12px
+}
+
+
+
+#topo{
+    margin-left: 298px;
+    margin-bottom: 5px;
+    font-size: 14px
+}
+
+
+.margem{
+    margin: auto;
+    width: 48%;
+    padding-left: 0px;
+    padding-top:5px;
+    font-size: 14px
+}
+
+
+.tamanho{
+    width: 24px;
+    height: 24px;
+    margin-bottom:-6px
+}
+
+
+.tamanho1{
+    width: 24px;
+    height: 24px;
+    margin-bottom:-6px
+}
+
+
+#cor_cinza {
+    color: #A4A4A4;
+}
+
+
+#seta {
+    font-size: 10px
+}
+
+
+.borda1{
+    margin-left:-74px;
+    border-bottom:1px solid #D8D8D8;
+    border-top:1px solid #D8D8D8;
+    border-left:1px solid #D8D8D8;
+    border-right:1px solid #D8D8D8;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    float: center
+}
+
+
+.borda2{
+    border-bottom:1px solid #D8D8D8;
+    border-top:1px solid #D8D8D8;
+    border-left:1px solid #D8D8D8;
+    border-right:1px solid #D8D8D8;
+    background-color: white;
+    margin-left: 325px;
+    margin-top: -150px;
+    width: 400px;
+    height: 150px;
+}
+
+
+#borda_esq{
+    border-right:1px solid #F2F2F2;
+}
+
+
+#esp{
+    padding-right:15px;
+    padding-left: 15px
+}
+
+
+#esp_time{
+    padding-left: 130px
+}
+
+
+#esp_time8{
+    padding-left: 128px
+}
+
+
+#esp_time1{
+    padding-left: 103px
+}
+
+
+#esp_time6{
+    padding-left: 100px
+}
+
+
+#esp_time3{
+    padding-left: 147px
+}
+
+
+#esp_time4{
+    padding-left: 80px
+}
+
+
+#esp_time9{
+    padding-left: 115px
+}
+
+
+.center{
+    text-align:center;
+    line-height: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -50px;
+}
+
+
+.times{
+    margin-top: -45px;
+    position: absolute;
+}
+
+
+#cima{
+    margin-top: -25px;
+    position: absolute;
+}
+
+
+#cor_ {
+    color: #A4A4A4;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+
+.cartao{
+    width: 3,5%;
+}
+
+
+#esp_time5{
+    padding-left: 107px
+}

@@ -1,0 +1,280 @@
+body{
+    font-family: calibri;
+    background-image: url("branco.png");
+    background-repeat: no-repeat;
+    background-position: left; 
+}
+
+h1 {
+    text-align: center;
+    font-family: calibri;
+    float: none;
+    width: 900px;
+    height: 30px;
+    background: #18e726;
+    border-radius: 10px;
+    color: black;
+    padding: 20px; 
+    font-size: 32px;     
+}
+
+.rua {
+    font-family: calibri;
+    padding-left: 250px;
+    line-height: 22%;
+    font-size: 20px;
+}
+
+.begin {
+    color: #18e726;
+}
+
+.foto {
+    width: 120px;
+    float: left;
+    border-radius: 50%;
+    border:2px solid #040404
+}
+
+.skil2 {
+    padding: 60px;
+    padding-left: 5px;
+    font-size: 22px;
+    font-family: calibri;
+    border-style: ;
+    border-bottom-width: px;
+}
+
+p {
+    font-family: calibri;
+    font-size: 18px;
+    line-height: 90%;
+    padding-right: 500px;
+}
+
+.study {
+    font-family: calibri;
+    font-size: 18px;
+}
+
+h2{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-family: calibri;
+    font-size: 25px;
+}
+
+.borda { 
+    border-bottom:2px solid #18e726;
+    padding-top: 35px;
+    margin-right:365px;
+    width: 60%;
+    float: right;
+    font-size: 22px;
+}
+
+.borda2 {
+    border-bottom:2px solid #18e726;
+    padding-top: 15px;
+    margin-right:429px;
+    width: 57%;
+    float: right;
+}
+
+.hab {
+    padding-left: 15px;
+    border-bottom:2px solid #18e726; 
+    padding-top: 30px;
+    width: 30%;
+    font-family: calibri;
+}
+
+.hab2 {
+    padding-left: 25px;
+    font-family: calibri;
+}
+
+.pers{
+    padding-left: 15px;
+    padding-top: 40px;
+    border-bottom:2px solid #18e726; 
+    padding-top: 30px;
+    width: 30%;
+    font-size: 25px;
+    font-family: calibri;
+}
+
+.pers2{
+    padding-left: 25px;
+    font-family: calibri;
+}
+
+.idi{
+    padding-left: 15px;
+    padding-top: 40px;
+    border-bottom:2px solid #18e726; 
+    padding-top: 30px;
+    width: 30%;
+    font-size: 25px;
+}
+
+.vertical{
+    border-left: 2px solid #18e726;
+    height: 450px;
+    position: absolute;
+    left: 34%;
+    margin-left: -3px;
+    top: 730px;
+}
+
+.lado{
+    margin-top: -44px;
+    margin-left: 36%;
+    position: absolute;
+    top: 765px;
+    font-family: calibri;
+}
+
+.exp{
+    border-bottom:2px solid #18e726; 
+    padding-left: 10px;
+    width: 47%;
+    font-size: 25px;
+}
+
+.lado2{
+    font-style: italic
+}
+
+.lado3{
+    text-align: justify
+}
+
+.giant{
+    margin-top: -45px
+}
+
+.tudolado {
+    padding-left: 25px
+}
+
+.bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #18e726;
+    margin-left: 130px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola2 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #18e726;
+    margin-left: 170px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola3 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #18e726;
+    margin-left: 150px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola4 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #18e726;
+    margin-left: 190px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola5 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-left: 210px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola6 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-left: 230px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola7 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-left: 250px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola8 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-left: 270px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola9 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-left: 290px;
+    margin-top: -32px;
+    position: absolute
+}
+
+.bola10 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-left: 310px;
+    margin-top: -32px;
+    position: absolute
+}

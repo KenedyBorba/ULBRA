@@ -1,0 +1,366 @@
+body {
+    width: 1349px
+}
+
+
+/* cabeçalho */
+header{
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+.caixa {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.caixa img {
+    max-width: 400px;
+    padding: 20px
+}
+
+
+/*conteúdo principal */
+main {
+    border: 1px solid #000000;
+    border-top: none;
+    display: inline-block
+}
+
+.primeiro1 {
+    cursor: pointer;
+    display: inline-block;
+    height: 182px;
+}
+
+.primeiro2 {
+    cursor: pointer;
+    display: inline-block;
+    border-top: 1px solid #cccccc;
+    height: 182px;
+}
+
+.primeiro3 {
+    cursor: pointer;
+    display: inline-block;
+    border-top: 1px solid #cccccc;
+    height: 182px;
+}
+
+.primeiro4 {
+    cursor: pointer;
+    display: inline-block;
+    border-top: 1px solid #cccccc;
+    height: 182px;
+}
+
+nav {
+    margin: 0 50px;
+    width: 670px;
+}
+
+.h2 {
+    color: #ff7d55;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.p {
+    padding-top: 1em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.p:hover {
+    transform: scale(1s);
+    color: #a09fa0
+}
+
+.um {
+    width: 180px;
+    float: right;
+    margin: 30px 0px 10px 30px;
+}
+
+.dois {
+    width: 180px;
+    float: right;
+    margin: 30px 0px 10px 30px;
+}
+
+.tres {
+    width: 180px;
+    float: right;
+    margin: 30px 0px 10px 30px;
+}
+
+.quatro {
+    width: 180px;
+    float: right;
+    margin: 30px 0px 10px 30px;
+}
+
+
+.linhanomeio {
+    position: absolute;
+    border-left: 1px solid #000000;
+    display: inline-block;
+    float: right;
+    height: 727px;
+    margin-left: 782.5px
+}
+
+.baixo {
+    margin-top: -700px;
+    text-decoration: none;
+}
+
+.segundo1 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    float: right;
+    height: 170px;
+    margin: -25px 50px -50px -50px;
+}
+
+.segundo2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    border-top: 1px solid #cccccc;
+    float: right;
+    height: 170px;
+    margin: 150px -400px -50px -50px;
+}
+
+.segundo3 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    border-top: 1px solid #cccccc;
+    float: right;
+    height: 170px;
+    margin: 325px -400px -50px -50px;
+}
+
+.segundo4 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    border-top: 1px solid #cccccc;
+    float: right;
+    height: 190px;
+    margin: 500px -400px 5px -50px;
+    background: #fff2ee
+}
+
+.cor-1 {
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px 0px 10px 0px;
+}
+
+.cor-1:hover {
+    transform: scale(1s);
+    color: #a09fa0
+}
+
+.cor-caps-1 {
+    color: #d9b451;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cor-2 {
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px 0px 10px 0px;
+}
+
+.cor-2:hover {
+    transform: scale(1s);
+    color: #a09fa0
+}
+
+.cor-caps-2 {
+    color: #d9b451;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cor-caps2-3 {
+    color: #ff7d55;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 50px 0px 10px 0px;
+}
+
+.cor-3 {
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: -5px 0px 10px 0px;
+}
+
+.cor-3:hover {
+    transform: scale(1s);
+    color: #a09fa0
+}
+
+.cor-caps2-4 {
+    color: #ff7d55;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 55px 0px 10px 15px;
+}
+
+.cor-4 {
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: -5px 0px 10px 15px;
+}
+
+.cor-4:hover {
+    transform: scale(1s);
+    color: #a09fa0
+}
+
+.leonardo {
+    border-radius: 50%;
+    width: 140px;
+    float: right;
+    margin: 15px 0px 0 40px
+}
+
+.diogo {
+    border-radius: 50%;
+    width: 140px;
+    float: right;
+    margin: 15px 0px 0 40px
+}
+
+.lacasa {
+    width: 120px;
+    float: right;
+    margin: 50px 0px 70px 40px
+}
+
+.pandemia {
+    width: 120px;
+    float: right;
+    margin: 55px 15px 70px 40px
+}
+
+
+/* rodapé da página */
+footer {
+    background: #ff7d55;
+    padding: 0px 0 0px 0;
+    border: 1px solid #000000;
+    border-top: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+    height: 180px;
+}
+
+.logo-gauchazh {
+    margin: 70px 0 0 70px;
+    width: 225px;
+}
+
+.descricao {
+    font-style: italic;
+    margin: 70px 0 0 80px;
+    width: 450px;
+    font-size: 14px;
+    position: absolute;
+    display: inline-block;
+}
+
+.telefone {
+    text-transform: uppercase;
+    float: right;
+    display: inline-block;
+    margin: 40px 240px 0 0;
+    text-align: right;
+    width: 400px;
+    font-size: 13px
+}
+
+.gaucha {
+    font-weight: bold;  
+}
+
+.tel {
+    padding: 0 0 1em;
+}
+
+.whats {
+    float: right;
+    margin: 0 0px 0 10px;
+    display: inline-block;
+}
+
+.redes {
+    float: right;
+    display: inline-block;
+    margin: 45px -590px 0px 0px;
+    width: 120px;
+}
+
+.rede {
+    margin: 0 8px
+}
+
+.botao {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    width: 12%;
+    height: 25%;
+    float: right;
+    border-radius: 5px;
+    background: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 90px -580px 0 0px
+}
+
+.botao h1 {
+    margin: 15px 0 0
+}

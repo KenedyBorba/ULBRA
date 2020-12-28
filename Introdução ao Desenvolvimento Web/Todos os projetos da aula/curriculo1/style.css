@@ -1,0 +1,59 @@
+body {
+	background: #487485;
+}
+
+.meunome{
+	padding-left: 450px;
+	font-family: consolas;
+	font-size: 40px;
+	color:#ffffff;
+	line-height: 30%
+}
+
+.style{
+	line-height
+}
+
+p{
+	padding-left: 450px;
+	font-family: consolas;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 10%
+}
+
+h2{
+	padding-left: 450px;
+	font-family: consolas;
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 30%
+}
+
+ul{
+	padding-left: 450px;
+	font-family: consolas;
+	font-size: 20px;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+
+.info-gerais{
+	padding: 10px;
+}
+
+.imagemperfil{
+	width: 15%
+}
+
+img  {
+  float: left;
+  width: 300px;
+  height: 240px;
+  background: #487485;
+  color: #ffd700;
+  padding: 20px;
+  border: 5px solid #ffffff;
+}
+

@@ -1,0 +1,165 @@
+body {
+    font-family: arial;
+    background-color: #E6E6E6;
+    width: 1323px;
+}
+
+
+header{
+    margin: auto;
+    background: #162E58;
+    padding-bottom: 130px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -18px;
+    color: #FFF;
+    font-size: 16px
+}
+
+
+#liga_pala{
+    position: absolute;
+    font-size:16px;
+    font-family: arial;
+    margin-left: 30px;
+    padding-top: 75px
+}
+
+
+.linha{
+    position: absolute;
+    margin-left: 80px;
+    padding-top: 58px
+}
+
+
+#part{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 288px;
+    font-size: 12px
+}
+
+
+#not{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 408px;
+    font-size: 12px
+}
+
+
+#cla{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 525px;
+    font-size: 12px
+}
+
+
+#est{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 680px;
+    font-size: 12px
+}
+
+
+#jog{
+    color:white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 825px;
+    font-size: 12px
+}
+
+
+#liga_pala{
+    font-size:16px;
+    font-family: arial;
+    padding-left: 0px;
+    margin-top: -50px
+}
+
+
+.margem{
+    background: white;
+    margin: auto;
+    width: 48%;
+    padding-left: 50px;
+    padding-top:5px;
+}
+
+
+#jogadores {
+    color: #A4A4A4;
+    width: 580px;
+    text-align: left;
+    font-size: 12px
+}
+
+
+#gols {
+    color: #A4A4A4;
+    font-size: 14px
+}
+
+
+.tamanho{
+    width: 3%;
+}
+
+
+#cor_time {
+    color: #A4A4A4
+}
+
+
+td{
+    border-bottom:1px solid #F2F2F2;
+}
+
+
+#gol{
+    border-bottom:1px solid #F2F2F2;
+    text-align: right;
+    font-size: 14px;
+}
+
+
+#espacando{
+    padding-right: 20px;
+}
+
+
+#time_cor{
+    color: #A4A4A4;
+    font-size: 12px
+}
+
+
+#baixo{
+    padding-bottom: 900px;
+}
+
+
+.um {
+    line-height: 10%;
+    font-size: 14px;
+}
+
+
+.dois {
+    padding-left:30px;
+    line-height: 10%;
+    font-size: 16px;
+}
+
+
+#golll{
+    font-size: 12px
+}

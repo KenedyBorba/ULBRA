@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.botao-cor-especial{
+    background-color: #844d94;
+    color: white;
+}
+
+.borda-cor-especial{
+    border-color: #844d94;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 380px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.espacamento-n{
+    margin-top: 80px
+}
+
+.espacamento-m{
+    margin-top: 40px
+}
+
+.cor-rodape {
+    background-color: #844d94;
+    color: white;
+}

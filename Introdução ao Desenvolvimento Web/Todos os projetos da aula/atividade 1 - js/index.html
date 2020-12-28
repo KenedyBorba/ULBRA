@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <form class="formulario" name="calculadora">
+        <fieldset>
+            <legend class="titulo form-group col-7">Calculadora</legend>
+
+            <div class="form-group col-5">
+                <label for="primeiroValor">Digite o 1º valor:</label>
+                <input type="text" class="form-control" name="primeiroValor" id="primeiroValor" />
+            </div>
+
+            <div class="form-group col-5">
+                <label for="segundoValor">Digite o 2º valor:</label>
+                <input type="text" class="form-control" name="segundoValor" id="segundoValor" />
+            </div>
+
+            <div class="form-group col-5">
+                <label for="operacao">Selecione a operação:</label>
+                <select class="form-control" name="operacao" id="operacao">
+                    <option value="somar">Somar</option>
+                    <option value="subtrair">Subtrair</option>
+                    <option value="multiplicar">Multiplicar</option>
+                    <option value="dividir">Dividir</option>
+                </select>
+            </div>
+
+            <div class="form-group col-5">
+                <input type="button" value="Calcular" class="botao"
+                    onClick="calcular(document.calculadora.operacao.value)" />
+            </div>
+
+            <div class="form-group col-5">
+                <label for="resultado">Resultado:</label>
+                <input type="text" class="form-control" name="resultado" id="resultado" />
+            </div>
+        </fieldset>
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

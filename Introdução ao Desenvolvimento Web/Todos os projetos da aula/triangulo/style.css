@@ -1,0 +1,56 @@
+
+body {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 20px;
+ }
+
+ .formulario {
+    width: 30%;
+    margin: 0 35% 0 35%
+ }
+
+ .titulo {
+    text-align: center;
+    font-size: 24px;
+ }
+
+ .l1 {
+    margin: 1% 0% 0 18%;
+ }
+ 
+ .l2 {
+    margin: 1% 0% 0 18%;
+ }
+ 
+ .l3 {
+    margin: 1% 0% 0 18%;
+ }
+ 
+ .re {
+    margin: 1% 0% 0 18%;
+ }
+ 
+ .des {
+    margin: 1% 0% 0 18%;
+ }
+ 
+ #a {
+    margin: 0% 0% 0 0;
+    width: 25%;
+ }
+ 
+ #b {
+    width: 25%;
+ }
+ 
+ #c {
+    margin: 0 0% 0 0%;
+    width: 25%;
+ }
+ 
+ #resultado {
+    width: 40%;
+ }
+ 

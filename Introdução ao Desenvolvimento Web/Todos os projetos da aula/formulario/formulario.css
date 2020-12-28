@@ -1,0 +1,102 @@
+body {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: helvetica;
+}
+
+header {
+    margin-left: 300px
+}
+
+form {
+    margin-left: 300px;
+}
+
+fieldset {
+    border-color: 333333;
+}
+
+.dados {
+    width: 700px;
+    margin: 20px 0;
+}
+
+.input-padrao {
+    margin: 5px 10px 0px;
+}
+
+/* dados de pessoais */
+#nome {
+    margin: 5px 49px
+}
+
+#nascimento {
+    margin: 5px 8px;
+    padding-left: 0px;
+    width: 125px;
+}
+
+#rg {
+    margin: 5px 68px
+}
+
+#cpf {
+    margin: 5px 60px
+}
+
+/* dados de endereço */
+#rua {
+    margin: 0px 29px;
+    padding-left: 6px;
+}
+
+#numero {
+    width: 50px;
+}
+
+#bairro {
+    margin: 10px 15px;
+    padding-left: 6px;
+}
+
+#estado {
+    position: absolute;
+    margin: -18px 67px;
+}
+
+#cidade {
+    margin: 10px 7px;
+    padding-left: 6px;
+}
+
+#cep {
+    margin: 0px 25px;
+    padding-left: 6px;
+}
+
+/* dados de login */
+#email {
+    margin: 5px 86px;
+}
+
+#imagem {
+    margin: 5px 12px;
+}
+
+#login {
+    margin: 5px 13px;
+}
+
+#senha {
+    margin: 5px 85px;
+}
+
+#confirme-senha {
+    margin: 5px 5px;
+}
+
+/* caixas de envio e reset */
+.caixas {
+    cursor: pointer;
+    border-radius: 3px;
+}

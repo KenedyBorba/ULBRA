@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Formulário HTML</h1>
+        </header>
+    
+        <main>
+            <form action="http://vinicius.pro.br/idw/receiveForm.php" method="post">
+
+                <fieldset class="dados">
+                    <legend>Dados pessoais</legend>
+                        <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" class="input-padrao" required>
+                        <label for="sobrenome">Sobrenome:</label>
+                            <input type="text" id="sobrenome" name="sobrenome" class="input-padrao" required>
+                    <div>
+                        <label for="nascimento">Nascimento:</label>
+                            <input type="date" id="nascimento" name="nascimento" class="input-padrao" required>
+                    </div>
+                    <div>
+                        <label for="rg">RG:</label>
+                            <input type="number" id="rg" name="rg" class="input-padrao" required>
+                    </div>
+                        <label for="ncpf">CPF:</label>
+                            <input type="number" id="cpf" name="cpf" class="input-padrao" required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="dados">
+                    <legend>Dados de Endereço</legend>
+                        <label for="rua">Rua:</label>
+                            <input type="text" id="rua" name="rua" class="input-padrao" required>
+                        <label for="numero">Número:</label>
+                            <input type="number" id="numero" name="numero" class="input-padrao" required>
+                    <div>
+                        <label for="bairro">Bairro:</label>
+                            <input type="text" id="bairro" name="bairro" class="input-padrao" required>
+                    </div>
+                    <div>
+                        <legend>Estado:</legend>
+                            <select id="estado" name="estado" class="input-padrao">
+                                <option>Acre (AC)</option>
+                                <option>Alagoas (AL)</option>
+                                <option>Amapá (AP)</option>
+                                <option>Amazonas (AM)</option>
+                                <option>Bahia (BA)</option>
+                                <option>Ceará (CE)</option>
+                                <option>Distrito Federal (DF)</option>
+                                <option>Espírito Santo (ES)</option>
+                                <option>Goiás (GO)</option>
+                                <option>Maranhão (MA)</option>
+                                <option>Mato Grosso (MT)</option>
+                                <option>Mato Grosso do Sul (MS)</option>
+                                <option>Minas Gerais (MG)</option>
+                                <option>Pará (PA)</option>
+                                <option>Paraíba (PB)</option>
+                                <option>Paraná (PR)</option>
+                                <option>Pernambuco (PE)</option>
+                                <option>Piauí (PI)</option>
+                                <option>Rio de Janeiro (RJ)</option>
+                                <option>Rio Grande do Norte (RN)</option>
+                                <option>Rio Grande do Sul (RS)</option>
+                                <option>Rondônia (RO)</option>
+                                <option>Roraima (RR)</option>
+                                <option>Santa Catarina (SC)</option>
+                                <option>São Paulo (SP)</option>
+                                <option>Sergipe (SE)</option>
+                                <option>Tocantins (TO)</option>
+                            </select>
+                    </div>
+                        <label for="cidade">Cidade:</label>
+                            <input type="text" id="cidade" name="cidade" class="input-padrao" required>
+                    </div>
+                    <div>
+                        <label for="cep">CEP:</label>
+                            <input type="number" id="cep" name="cep" class="input-padrao" required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="dados">
+                    <legend>Dados de login</legend>
+                        <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" class="input-padrao" required required placeholder="seuemail@dominio.com">
+                    <div>
+                        <label for="imagem">Imagem de perfil:</label>
+                            <input type="file" id="imagem" name="imagem" class="input-padrao" required>
+                    </div>
+                    <div>
+                        <label for="login">Login de usuário:</label>
+                            <input type="text" id="login" name="login" class="input-padrao" required>
+                    </div>
+                    <div>
+                        <label for="senha">Senha:</label>
+                            <input type="password" id="senha" name="senha" class="input-padrao" required>
+                    </div>
+                        <label for="confirme-senha">Confirme a senha:</label>
+                            <input type="password" id="confirme-senha" name="confirme-senha" class="input-padrao" required>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Enviar" class="caixas">
+
+                <input type="reset" value="Limpar" class="caixas">
+
+            </form>
+        </main>
+    </body>
+</html>
